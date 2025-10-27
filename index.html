@@ -1,0 +1,2106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ElementVerse</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="info.css">
+
+    <!-- Periodic Section CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- About Us Section CSS -->
+     <link rel="stylesheet" href="about.css">
+
+     <!-- Favicon -->
+      <link rel="icon" type="image/png" href="image/favicon.png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="logo.gif" alt="ElementVerse Logo" /> <span class="line">|</span>
+                <span class="WebsiteName">ElementVerse</span>
+            </a>
+
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon"></div>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#periodic-section"><i class="bi bi-table"></i> Periodic Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-section"><i class="bi bi-search-heart"></i> Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section"><i class="bi bi-info-circle"></i> About Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav-buttons d-flex">
+                    <a href="#" class="btn btn-signin">Sign In</a>
+                    <a href="#" class="btn btn-signup">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center" id="home-section">
+        <div class="container">
+            <div class="hero-glass text-start">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <h1>ElementVerse</h1>
+                        <p class="tagline">Explore the building blocks of everything around us.</p>
+                        <p class="subtext">Learn about each element’s story, structure, and significance in the world.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#periodic-section" class="btn btn-explore">Explore the Periodic Table</a>
+                            <a href="#info-section" class="btn btn-learn">Learn About the Elements</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-center hero-image">
+                        <img src="image/atom.png" alt="Elements illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section text-center">
+        <div class="container">
+            <p>This website is a space for exploring the periodic table in a simple, interactive, and visual way. It
+                helps you understand each element’s properties, uses, and patterns through easy explanations and fun
+                learning tools.</p>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features-section text-center" id="features-section">
+        <div class="container">
+            <h2 class="section-title mb-5">What You Can Explore</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="feature-card glass-card">
+                        <div class="icon-circle mb-3">
+                            <i class="bi bi-grid"></i>
+                        </div>
+                        <h3>Periodic Table</h3>
+                        <p>Dive into a beautifully designed, interactive table where every element tells a story.</p>
+                        <ul class="feature-list text-start">
+                            <li>✔ Explore element families visually</li>
+                            <li>✔ Search and filter elements easily</li>
+                            <li>✔ Tap for quick info cards</li>
+                        </ul>
+                        <a href="#periodic-section" class="btn btn-feature mt-3">Explore Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="feature-card glass-card">
+                        <div class="icon-circle mb-3">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h3>In-Depth Information</h3>
+                        <p>Learn about each element’s origin, uses, atomic structure, and fun scientific trivia.</p>
+                        <ul class="feature-list text-start">
+                            <li>✔ Simplified explanations</li>
+                            <li>✔ Real-world applications</li>
+                            <li>✔ Chemical and physical properties</li>
+                        </ul>
+                        <a href="#info-section" class="btn btn-feature mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Periodic Table Section -->
+    <section class="periodic-section" id="periodic-section">
+        <h2 class="section-title mb-5">The Periodic Table</h2>
+        <div class="legend">
+            <span class="legend-item alkali" onclick="filterElements('alkali', this)">
+                 ✦ Alkali Metal
+            </span>
+            <span class="legend-item alkaline" onclick="filterElements('alkaline', this)">
+                 ✦ Alkaline Earth
+            </span>
+            <span class="legend-item transition" onclick="filterElements('transition', this)">
+                 ✦ Transition Metal
+            </span>
+            <span class="legend-item post" onclick="filterElements('post', this)">
+                 ✦ Post-Transition
+            </span>
+            <span class="legend-item metalloid" onclick="filterElements('metalloid', this)">
+                 ✦ Metalloid
+            </span>
+            <span class="legend-item nonmetal" onclick="filterElements('nonmetal', this)">
+                 ✦ Nonmetal
+            </span>
+            <span class="legend-item halogen" onclick="filterElements('halogen', this)">
+                 ✦ Halogen
+            </span>
+            <span class="legend-item noble" onclick="filterElements('noble', this)">
+                 ✦ Noble Gas
+            </span>
+            <span class="legend-item lanth" onclick="filterElements('lanth', this)">
+                 ✦ Lanthanide
+            </span>
+            <span class="legend-item actinide" onclick="filterElements('actinide', this)">
+                 ✦ Actinide
+            </span>
+        </div>
+
+        <table>
+            <!-- Row 1 -->
+            <tr>
+                <td class="nonmetal">
+                    <div class="num">1</div>
+                    <div class="sym">H</div>
+                    <div class="name">Hydrogen</div>
+                </td>
+                <td class="empty" colspan="16"></td>
+                <td class="noble">
+                    <div class="num">2</div>
+                    <div class="sym">He</div>
+                    <div class="name">Helium</div>
+                </td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">3</div>
+                    <div class="sym">Li</div>
+                    <div class="name">Lithium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">4</div>
+                    <div class="sym">Be</div>
+                    <div class="name">Beryllium</div>
+                </td>
+                <td class="empty" colspan="10"></td>
+                <td class="metalloid">
+                    <div class="num">5</div>
+                    <div class="sym">B</div>
+                    <div class="name">Boron</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">6</div>
+                    <div class="sym">C</div>
+                    <div class="name">Carbon</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">7</div>
+                    <div class="sym">N</div>
+                    <div class="name">Nitrogen</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">8</div>
+                    <div class="sym">O</div>
+                    <div class="name">Oxygen</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">9</div>
+                    <div class="sym">F</div>
+                    <div class="name">Fluorine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">10</div>
+                    <div class="sym">Ne</div>
+                    <div class="name">Neon</div>
+                </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">11</div>
+                    <div class="sym">Na</div>
+                    <div class="name">Sodium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">12</div>
+                    <div class="sym">Mg</div>
+                    <div class="name">Magnesium</div>
+                </td>
+                <td class="empty" colspan="10"></td>
+
+                <td class="post">
+                    <div class="num">13</div>
+                    <div class="sym">Al</div>
+                    <div class="name">Aluminium</div>
+                </td>
+                <td class="metalloid">
+                    <div class="num">14</div>
+                    <div class="sym">Si</div>
+                    <div class="name">Silicon</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">15</div>
+                    <div class="sym">P</div>
+                    <div class="name">Phosphorus</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">16</div>
+                    <div class="sym">S</div>
+                    <div class="name">Sulfur</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">17</div>
+                    <div class="sym">Cl</div>
+                    <div class="name">Chlorine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">18</div>
+                    <div class="sym">Ar</div>
+                    <div class="name">Argon</div>
+                </td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">19</div>
+                    <div class="sym">K</div>
+                    <div class="name">Potassium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">20</div>
+                    <div class="sym">Ca</div>
+                    <div class="name">Calcium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">21</div>
+                    <div class="sym">Sc</div>
+                    <div class="name">Scandium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">22</div>
+                    <div class="sym">Ti</div>
+                    <div class="name">Titanium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">23</div>
+                    <div class="sym">V</div>
+                    <div class="name">Vanadium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">24</div>
+                    <div class="sym">Cr</div>
+                    <div class="name">Chromium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">25</div>
+                    <div class="sym">Mn</div>
+                    <div class="name">Manganese</div>
+                </td>
+                <td class="transition">
+                    <div class="num">26</div>
+                    <div class="sym">Fe</div>
+                    <div class="name">Iron</div>
+                </td>
+                <td class="transition">
+                    <div class="num">27</div>
+                    <div class="sym">Co</div>
+                    <div class="name">Cobalt</div>
+                </td>
+                <td class="transition">
+                    <div class="num">28</div>
+                    <div class="sym">Ni</div>
+                    <div class="name">Nickel</div>
+                </td>
+                <td class="transition">
+                    <div class="num">29</div>
+                    <div class="sym">Cu</div>
+                    <div class="name">Copper</div>
+                </td>
+                <td class="transition">
+                    <div class="num">30</div>
+                    <div class="sym">Zn</div>
+                    <div class="name">Zinc</div>
+                </td>
+                <td class="post">
+                    <div class="num">31</div>
+                    <div class="sym">Ga</div>
+                    <div class="name">Gallium</div>
+                </td>
+                <td class="metalloid">
+                    <div class="num">32</div>
+                    <div class="sym">Ge</div>
+                    <div class="name">Germanium</div>
+                </td>
+                <td class="metalloid">
+                    <div class="num">33</div>
+                    <div class="sym">As</div>
+                    <div class="name">Arsenic</div>
+                </td>
+                <td class="nonmetal">
+                    <div class="num">34</div>
+                    <div class="sym">Se</div>
+                    <div class="name">Selenium</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">35</div>
+                    <div class="sym">Br</div>
+                    <div class="name">Bromine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">36</div>
+                    <div class="sym">Kr</div>
+                    <div class="name">Krypton</div>
+                </td>
+            </tr>
+
+            <!-- Row 5 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">37</div>
+                    <div class="sym">Rb</div>
+                    <div class="name">Rubidium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">38</div>
+                    <div class="sym">Sr</div>
+                    <div class="name">Strontium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">39</div>
+                    <div class="sym">Y</div>
+                    <div class="name">Yttrium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">40</div>
+                    <div class="sym">Zr</div>
+                    <div class="name">Zirconium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">41</div>
+                    <div class="sym">Nb</div>
+                    <div class="name">Niobium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">42</div>
+                    <div class="sym">Mo</div>
+                    <div class="name">Molybdenum</div>
+                </td>
+                <td class="transition">
+                    <div class="num">43</div>
+                    <div class="sym">Tc</div>
+                    <div class="name">Technetium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">44</div>
+                    <div class="sym">Ru</div>
+                    <div class="name">Ruthenium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">45</div>
+                    <div class="sym">Rh</div>
+                    <div class="name">Rhodium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">46</div>
+                    <div class="sym">Pd</div>
+                    <div class="name">Palladium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">47</div>
+                    <div class="sym">Ag</div>
+                    <div class="name">Silver</div>
+                </td>
+                <td class="transition">
+                    <div class="num">48</div>
+                    <div class="sym">Cd</div>
+                    <div class="name">Cadmium</div>
+                </td>
+                <td class="post">
+                    <div class="num">49</div>
+                    <div class="sym">In</div>
+                    <div class="name">Indium</div>
+                </td>
+                <td class="post">
+                    <div class="num">50</div>
+                    <div class="sym">Sn</div>
+                    <div class="name">Tin</div>
+                </td>
+                <td class="metalloid">
+                    <div class="num">51</div>
+                    <div class="sym">Sb</div>
+                    <div class="name">Antimony</div>
+                </td>
+                <td class="post">
+                    <div class="num">52</div>
+                    <div class="sym">Te</div>
+                    <div class="name">Tellurium</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">53</div>
+                    <div class="sym">I</div>
+                    <div class="name">Iodine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">54</div>
+                    <div class="sym">Xe</div>
+                    <div class="name">Xenon</div>
+                </td>
+            </tr>
+
+            <!-- Row 6 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">55</div>
+                    <div class="sym">Cs</div>
+                    <div class="name">Cesium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">56</div>
+                    <div class="sym">Ba</div>
+                    <div class="name">Barium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">57</div>
+                    <div class="sym">La</div>
+                    <div class="name">Lanthanides</div>
+                </td>
+                <td class="transition">
+                    <div class="num">72</div>
+                    <div class="sym">Hf</div>
+                    <div class="name">Hafnium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">73</div>
+                    <div class="sym">Ta</div>
+                    <div class="name">Tantalum</div>
+                </td>
+                <td class="transition">
+                    <div class="num">74</div>
+                    <div class="sym">W</div>
+                    <div class="name">Tungsten</div>
+                </td>
+                <td class="transition">
+                    <div class="num">75</div>
+                    <div class="sym">Re</div>
+                    <div class="name">Rhenium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">76</div>
+                    <div class="sym">Os</div>
+                    <div class="name">Osmium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">77</div>
+                    <div class="sym">Ir</div>
+                    <div class="name">Iridium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">78</div>
+                    <div class="sym">Pt</div>
+                    <div class="name">Platinum</div>
+                </td>
+                <td class="transition">
+                    <div class="num">79</div>
+                    <div class="sym">Au</div>
+                    <div class="name">Gold</div>
+                </td>
+                <td class="transition">
+                    <div class="num">80</div>
+                    <div class="sym">Hg</div>
+                    <div class="name">Mercury</div>
+                </td>
+                <td class="post">
+                    <div class="num">81</div>
+                    <div class="sym">Tl</div>
+                    <div class="name">Thallium</div>
+                </td>
+                <td class="post">
+                    <div class="num">82</div>
+                    <div class="sym">Pb</div>
+                    <div class="name">Lead</div>
+                </td>
+                <td class="post">
+                    <div class="num">83</div>
+                    <div class="sym">Bi</div>
+                    <div class="name">Bismuth</div>
+                </td>
+                <td class="post">
+                    <div class="num">84</div>
+                    <div class="sym">Po</div>
+                    <div class="name">Polonium</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">85</div>
+                    <div class="sym">At</div>
+                    <div class="name">Astatine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">86</div>
+                    <div class="sym">Rn</div>
+                    <div class="name">Radon</div>
+                </td>
+            </tr>
+
+            <!-- Row 7 -->
+            <tr>
+                <td class="alkali">
+                    <div class="num">87</div>
+                    <div class="sym">Fr</div>
+                    <div class="name">Francium</div>
+                </td>
+                <td class="alkaline">
+                    <div class="num">88</div>
+                    <div class="sym">Ra</div>
+                    <div class="name">Radium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">89</div>
+                    <div class="sym">Ac</div>
+                    <div class="name">Actinides</div>
+                </td>
+                <td class="transition">
+                    <div class="num">104</div>
+                    <div class="sym">Rf</div>
+                    <div class="name">Rutherfordium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">105</div>
+                    <div class="sym">Db</div>
+                    <div class="name">Dubnium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">106</div>
+                    <div class="sym">Sg</div>
+                    <div class="name">Seaborgium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">107</div>
+                    <div class="sym">Bh</div>
+                    <div class="name">Bohrium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">108</div>
+                    <div class="sym">Hs</div>
+                    <div class="name">Hassium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">109</div>
+                    <div class="sym">Mt</div>
+                    <div class="name">Meitnerium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">110</div>
+                    <div class="sym">Ds</div>
+                    <div class="name">Darmstadtium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">111</div>
+                    <div class="sym">Rg</div>
+                    <div class="name">Roentgenium</div>
+                </td>
+                <td class="transition">
+                    <div class="num">112</div>
+                    <div class="sym">Cn</div>
+                    <div class="name">Copernicium</div>
+                </td>
+                <td class="post">
+                    <div class="num">113</div>
+                    <div class="sym">Nh</div>
+                    <div class="name">Nihonium</div>
+                </td>
+                <td class="post">
+                    <div class="num">114</div>
+                    <div class="sym">Fl</div>
+                    <div class="name">Flerovium</div>
+                </td>
+                <td class="post">
+                    <div class="num">115</div>
+                    <div class="sym">Mc</div>
+                    <div class="name">Moscovium</div>
+                </td>
+                <td class="post">
+                    <div class="num">116</div>
+                    <div class="sym">Lv</div>
+                    <div class="name">Livermorium</div>
+                </td>
+                <td class="halogen">
+                    <div class="num">117</div>
+                    <div class="sym">Ts</div>
+                    <div class="name">Tennessine</div>
+                </td>
+                <td class="noble">
+                    <div class="num">118</div>
+                    <div class="sym">Og</div>
+                    <div class="name">Oganesson</div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Lanthanides & Actinides below -->
+        <table class="smalltable" style="margin-top:30px;">
+            <tr>
+                <td class="lanth">
+                    <div class="num">57</div>
+                    <div class="sym">La</div>
+                    <div class="name">Lanthanum</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">58</div>
+                    <div class="sym">Ce</div>
+                    <div class="name">Cerium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">59</div>
+                    <div class="sym">Pr</div>
+                    <div class="name">Praseodymium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">60</div>
+                    <div class="sym">Nd</div>
+                    <div class="name">Neodymium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">61</div>
+                    <div class="sym">Pm</div>
+                    <div class="name">Promethium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">62</div>
+                    <div class="sym">Sm</div>
+                    <div class="name">Samarium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">63</div>
+                    <div class="sym">Eu</div>
+                    <div class="name">Europium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">64</div>
+                    <div class="sym">Gd</div>
+                    <div class="name">Gadolinium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">65</div>
+                    <div class="sym">Tb</div>
+                    <div class="name">Terbium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">66</div>
+                    <div class="sym">Dy</div>
+                    <div class="name">Dysprosium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">67</div>
+                    <div class="sym">Ho</div>
+                    <div class="name">Holmium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">68</div>
+                    <div class="sym">Er</div>
+                    <div class="name">Erbium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">69</div>
+                    <div class="sym">Tm</div>
+                    <div class="name">Thulium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">70</div>
+                    <div class="sym">Yb</div>
+                    <div class="name">Ytterbium</div>
+                </td>
+                <td class="lanth">
+                    <div class="num">71</div>
+                    <div class="sym">Lu</div>
+                    <div class="name">Lutetium</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="actinide">
+                    <div class="num">89</div>
+                    <div class="sym">Ac</div>
+                    <div class="name">Actinium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">90</div>
+                    <div class="sym">Th</div>
+                    <div class="name">Thorium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">91</div>
+                    <div class="sym">Pa</div>
+                    <div class="name">Protactinium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">92</div>
+                    <div class="sym">U</div>
+                    <div class="name">Uranium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">93</div>
+                    <div class="sym">Np</div>
+                    <div class="name">Neptunium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">94</div>
+                    <div class="sym">Pu</div>
+                    <div class="name">Plutonium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">95</div>
+                    <div class="sym">Am</div>
+                    <div class="name">Americium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">96</div>
+                    <div class="sym">Cm</div>
+                    <div class="name">Curium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">97</div>
+                    <div class="sym">Bk</div>
+                    <div class="name">Berkelium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">98</div>
+                    <div class="sym">Cf</div>
+                    <div class="name">Californium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">99</div>
+                    <div class="sym">Es</div>
+                    <div class="name">Einsteinium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">100</div>
+                    <div class="sym">Fm</div>
+                    <div class="name">Fermium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">101</div>
+                    <div class="sym">Md</div>
+                    <div class="name">Mendelevium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">102</div>
+                    <div class="sym">No</div>
+                    <div class="name">Nobelium</div>
+                </td>
+                <td class="actinide">
+                    <div class="num">103</div>
+                    <div class="sym">Lr</div>
+                    <div class="name">Lawrencium</div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- In-depth Information Section -->
+    <section class="info-section py-5" id="info-section">
+        <div class="container text-center">
+            <h2 class="info-title mb-4">In-depth Information</h2>
+            <!-- Search Bar -->
+            <div class="info-searchbar mx-auto mb-5">
+                <input type="text" id="searchID" class="form-control info-input" placeholder="Search for an element..."
+                    onkeyup="search_element()">
+            </div>
+            <!-- Element Cards -->
+            <div class="row g-4 justify-content-center" id="infoElementContainer">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e1.jpg" alt="Hydrogen" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Hydrogen (H)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/hydrogen"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e2.jpg" alt="Helium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Helium (He)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/helium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e3.jpg" alt="Lithium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Lithium (Li)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/lithium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e4.jpg" alt="Beryllium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Beryllium (Be)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/beryllium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e5.jpg" alt="Boron" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Boron (B)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/boron"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e6.jpg" alt="Carbon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Carbon (C)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/carbon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e7.jpg" alt="Nitrogen" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Nitrogen (N)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/nitrogen"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e8.jpg" alt="Oxygen" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Oxygen (O)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/oxygen"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e9.jpg" alt="Fluorine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Fluorine (F)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/fluorine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e10.jpg" alt="Neon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Neon (Ne)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/neon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e11.jpg" alt="Sodium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Sodium (Na)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/sodium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e12.jpg" alt="Magnesium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Magnesium (Mg)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/magnesium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e13.jpg" alt="Aluminium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Aluminium (Al)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/aluminium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e14.jpg" alt="Silicon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Silicon (Si)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/silicon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e15.jpg" alt="Phosphorus" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Phosphorus (P)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/phosphorus"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e16.jpg" alt="Sulfur" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Sulfur (S)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/sulfur"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e17.jpg" alt="Chlorine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Chlorine (Cl)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/chlorine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e18.jpg" alt="Argon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Argon (Ar)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/argon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e19.jpg" alt="Potassium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Potassium (K)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/potassium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e20.jpg" alt="Calcium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Calcium (Ca)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/calcium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e21.jpg" alt="Scandium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Scandium (Sc)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/scandium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e22.jpg" alt="Titanium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Titanium (Ti)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/titanium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e23.jpg" alt="Vanadium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Vanadium (V)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/vanadium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e24.jpg" alt="Chromium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Chromium (Cr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/chromium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e25.jpg" alt="Manganese" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Manganese (Mn)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/manganese"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e26.jpg" alt="Iron" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Iron (Fe)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/iron"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e27.jpg" alt="Cobalt" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Cobalt (Co)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/cobalt"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e28.jpg" alt="Nickel" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Nickel (Ni)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/nickel"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e29.jpg" alt="Copper" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Copper (Cu)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/copper"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e30.jpg" alt="Zinc" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Zinc (Zn)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/zinc"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e31.jpg" alt="Gallium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Gallium (Ga)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/gallium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e32.jpg" alt="Germanium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Germanium (Ge)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/germanium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e33.jpg" alt="Arsenic" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Arsenic (As)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/arsenic"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e34.jpg" alt="Selenium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Selenium (Se)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/selenium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e35.jpg" alt="Bromine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Bromine (Br)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/bromine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e36.jpg" alt="Krypton" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Krypton (Kr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/kyrpton"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e37.jpg" alt="Rubidium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Rubidium (Rb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/rubidium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e38.jpg" alt="Strontium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Strontium (Sr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/strontium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e39.jpg" alt="Yttrium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Yttrium (Y)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/yttrium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e40.jpg" alt="Zirconium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Zirconium (Zr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/zirconium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e41.jpg" alt="Niobium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Niobium (Nb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/niobium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e42.jpg" alt="Molybdenum" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Molybdenum (Mo)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/molybdenum"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e43.jpg" alt="Technetium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Technetium (Tc)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/technetium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e44.jpg" alt="Ruthenium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Ruthenium (Ru)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/ruthenium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e45.jpg" alt="Rhodium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Rhodium (Rh)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/rhodium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e46.jpg" alt="Palladium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Palladium (Pd)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/palladium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e47.jpg" alt="Silver" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Silver (Ag)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/silver"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e48.jpg" alt="Cadmium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Cadmium (Cd)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/cadmium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e49.jpg" alt="Indium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Indium (In)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/indium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e50.jpg" alt="Tin" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Tin (Sn)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/tin"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e51.jpg" alt="Antimony" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Antimony (Sb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/antimony"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e52.jpg" alt="Tellurium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Tellurium (Te)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/tellurium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e53.jpg" alt="Iodine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Iodine (I)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/iodine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e54.jpg" alt="Xenon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Xenon (Xe)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/xenon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e55.jpg" alt="Cesium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Cesium (Cs)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/cesium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e56.jpg" alt="Barium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Barium (Ba)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/barium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e57.jpg" alt="Lanthanum" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Lanthanum (La)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/lanthanum"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e58.jpg" alt="Cerium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Cerium (Ce)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/cerium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e59.jpg" alt="Praseodymium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Praseodymium (Pr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/praseodymium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e60.jpg" alt="Neodymium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Neodymium (Nd)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/neodymium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e61.jpg" alt="Promethium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Promethium (Pm)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/promethium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e62.jpg" alt="Samarium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Samarium (Sm)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/samarium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e63.jpg" alt="Europium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Europium (Eu)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/europium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e64.jpg" alt="Gadolinium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Gadolinium (Gd)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/gadolinium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e65.jpg" alt="Terbium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Terbium (Tb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/terbium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e66.jpg" alt="Dysprosium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Dysprosium (Dy)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/dysprosium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e67.jpg" alt="Holmium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Holmium (Ho)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/holmium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e68.jpg" alt="Erbium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Erbium (Er)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/erbium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e69.jpg" alt="Thulium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Thulium (Tm)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/thulium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e70.jpg" alt="Ytterbium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Ytterbium (Yb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/ytterbium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e71.jpg" alt="Lutetium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Lutetium (Lu)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/lutetium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e72.jpg" alt="Hafnium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Hafnium (Hf)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/hafnium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e73.jpg" alt="Tantalum" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Tantalum (Ta)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/tantalum"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e74.jpg" alt="Tungsten" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Tungsten (W)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/tungsten"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e75.jpg" alt="Rhenium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Rhenium (Re)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/rhenium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e76.jpg" alt="Osmium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Osmium (Os)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/osmium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e77.jpg" alt="Iridium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Iridium (Ir)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/iridium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e78.jpg" alt="Platinum" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Platinum (Pt)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/platinum"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e79.jpg" alt="Gold" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Gold (Au)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/gold"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e80.jpg" alt="Mercury" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Mercury (Hg)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/mercury"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e81.jpg" alt="Thallium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Thallium (Tl)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/thallium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e82.jpg" alt="Lead" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Lead (Pb)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/lead"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e83.jpg" alt="Bismuth" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Bismuth (Bi)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/bismuth"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e84.jpg" alt="Polonium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Polonium (Po)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/polonium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e85.jpg" alt="Astatine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Astatine (At)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/astatine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e86.jpg" alt="Radon" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Radon (Rn)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/radon"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e87.jpg" alt="Francium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Francium (Fr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/francium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e88.jpg" alt="Radium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Radium (Ra)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/radium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e89.jpg" alt="Actinium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Actinium (Ac)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/actinium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e90.jpg" alt="Thorium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Thorium (Th)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/thorium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e91.jpg" alt="Protactinium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Protactinium (Pa)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/protactnium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e92.jpg" alt="Uranium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Uranium (U)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/uranium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e93.jpg" alt="Neptunium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Neptunium (Np)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/neptunium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e94.jpg" alt="Plutonium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Plutonium (Pu)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/plutonium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e95.jpg" alt="Americium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Americium (Am)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/americium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e96.jpg" alt="Curium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Curium (Cm)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/curium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e97.jpg" alt="Berkelium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Berkelium (Bk)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/berkelium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e98.jpg" alt="Californium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Californium (Cf)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/californium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e99.jpg" alt="Einsteinium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Einsteinium (Es)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/einsteinium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e100.jpg" alt="Fermium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Fermium (Fm)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/fermium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e101.jpg" alt="Mendelevium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Mendelevium (Md)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/mendelevium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e102.jpg" alt="Nobelium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Nobelium (No)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/nobelium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e103.jpg" alt="Lawrencium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Lawrencium (Lr)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/lawrencium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e104.jpg" alt="Rutherfordium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Rutherfordium (Rf)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/rutherfordium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e105.jpg" alt="Dubnium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Dubnium (Db)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/dubnium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e106.jpg" alt="Seaborgium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Seaborgium (Sg)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/seaborgium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e107.jpg" alt="Bohrium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Bohrium (Bh)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/bohrium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e108.jpg" alt="Hassium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Hassium (Hs)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/hassium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e109.jpg" alt="Meitnerium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Meitnerium (Mt)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/meitnerium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e110.jpg" alt="Darmstadtium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Darmstadtium (Ds)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/darmstadtium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e111.jpg" alt="Roentgenium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Roentgenium (Rg)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/reontgenium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e112.jpg" alt="Copernicium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Copernicium (Cn)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/copernicium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e113.jpg" alt="Nihonium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Nihonium (Nh)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/nihonium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e114.jpg" alt="Flerovium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Flerovium (Fl)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/flerovium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e115.jpg" alt="Moscovium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Moscovium (Mc)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/moscovium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e116.jpg" alt="Livermorium" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Livermorium (Lv)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/livermorium"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e117.jpg" alt="Tennessine" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Tennessine (Ts)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/tennessine"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="info-card">
+                        <img src="image/e118.jpg" alt="Organesson" class="info-img">
+                        <div class="info-card-body">
+                            <h5 class="info-element-name">Organesson (Og)</h5>
+                            <button class="info-btn"><a href="https://periodictab.com/elements/organesson"
+                                    style="text-decoration: none; color: #F2F3F4;">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+     <section class="about-section" id="about-section">
+        <div class="container about-con">
+            <div class="div1">
+                <h2 class="about-title">About ElementVerse</h2>
+                <p>ElementVerse is an interactive and educational platform designed to make the periodic table engaging and accessible for everyone. It allows users to explore each element’s properties, atomic structure, uses, and interesting facts through a visually appealing interface and interactive table.</p>
+                
+                <hr>
+                <br>
+                <h2>Our Objectives</h2>
+                <ul>
+                    <li>To provide easy access to information about all chemical elements — including their symbols, atomic numbers, and properties.</li>
+                    <li>To help students and learners understand the organization of the periodic table, such as groups, periods, and element categories (metals, nonmetals, metalloids, etc.).</li>
+                    <li>To serve as a quick reference tool for students, teachers, and science enthusiasts.</li>
+                    <li>To promote curiosity and deeper exploration of how elements relate to real-world uses and discoveries.</li>
+                </ul>
+                <br>
+<hr>
+            </div>
+            
+            <div class="div2">
+                <h2>Meet our Members</h2>
+                <div class="team_container">
+                    <div class="team1">
+                        <img src="image/logo.gif" alt="atom">
+                        <h3>Aeindani Khin</h3>
+                    </div>
+                    <div class="team2">
+                        <img src="image/logo.gif" alt="paris">
+                        <h3>Alinkar Aung Ko</h3>
+                    </div>
+                    <div class="team3">
+                        <img src="image/logo.gif" alt="orchid">
+                        <h3>San Htet Htar</h3>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <h2>Recently Asked Questions About The Periodic Table</h2>
+                <details>
+                    <summary>Why is the periodic table called “periodic”?</summary>
+                    <p>It is called periodic because the properties of elements repeat at regular intervals, or periods, when arranged by increasing atomic number.</p>
+                </details>
+                <details>
+                    <summary>Who created the periodic table?</summary>
+                    <p>The periodic table was first developed by Dmitri Mendeleev in 1869.
+                        He arranged elements according to their atomic mass and left spaces for elements that had not yet been discovered.</p>
+                </details>
+                <details>
+                    <summary>How are elements arranged in the periodic table?</summary>
+                    <p>Elements are arranged in order of increasing atomic number (number of protons).
+                        They are organized in rows called periods and columns called groups based on similar chemical properties.</p>
+                </details>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h4>ElementVerse</h4>
+            <p>Discover the wonders of the elements, one atom at a time.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a> |
+                <a href="#periodic-section">Periodic Table</a> |
+                <a href="#info-section">Learn</a> |
+                <a href="#about-section">About</a>
+            </div>
+            <div class="social-icons mt-3">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+            <p class="credit mt-3">© 2025 Room 1 (Year - 9 Indigo) – All rights reserved | Built with creativity</p>
+        </div>
+    </footer>
+    <!-- In-depth Information Section JS -->
+    <script src="info.js"></script>
+
+    <!-- Periodic Section JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .about-section{
+            font: small-caption;
+            background: linear-gradient(135deg, #cfa7e1, #f4b7c1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .about-con{
+            width: 90%;
+            height: auto;
+            background-color:rgba(255, 255, 255, 0.4) ;
+            backdrop-filter: blur(15px);
+            border-radius: 40px;
+        }
+        .div1{
+            background: url(image/d0a1bc658ef3978d73a4c3bbc8426032.jpg); 
+            background-size: 1200px;
+            padding: 0px 20px;
+            overflow: hidden;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+        .div2{
+            padding: 0px 20px;
+        }
+        .faq {
+            margin-top: 30px;
+            text-align: left;
+        }
+        details {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        summary {
+            font-weight: 600;
+            color: #3a2a3a;
+        }
+
+        details p {
+            margin: 10px 0 0 0;
+            color: #4a324a;
+        }
+        .team_container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .team_container div{
+            flex-basis: 24%;
+            background: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-radius: 30px;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .team_container img{
+            width: 300px;
+            height: 300px;
+        }
+        .team_container img:hover{
+            width: 350px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <section class="about-section">
+        <div class="container about-con">
+            <div class="div1">
+                <h2 class="section-title mb-5">About ElementVerse</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis illum itaque mollitia error quasi praesentium at quam officiis molestiae nam. Debitis reiciendis quas dolorum at vitae eligendi odit ducimus porro.</p>
+                <br>
+                <h2>Our Objectives</h2>
+                <ul>
+                    <li>To provide easy access to information about all chemical elements — including their symbols, atomic numbers, and properties.</li>
+                    <li>To help students and learners understand the organization of the periodic table, such as groups, periods, and element categories (metals, nonmetals, metalloids, etc.).</li>
+                    <li>To serve as a quick reference tool for students, teachers, and science enthusiasts.</li>
+                    <li>To make chemistry learning more interactive and engaging through color coding, hover effects, or clickable elements that show details.</li>
+                    <li>To promote curiosity and deeper exploration of how elements relate to real-world uses and discoveries.</li>
+                </ul>
+
+            </div>
+            
+            <div class="div2">
+                <h2>Meet our Members</h2>
+                <div class="team_container">
+                    <div class="team1">
+                        <img src="image/download.png" alt="atom">
+                        <h3>Aeindani Khin</h3>
+                    </div>
+                    <div class="team2">
+                        <img src="image/download.png" alt="paris">
+                        <h3>Alinkar Aung Ko</h3>
+                    </div>
+                    <div class="team3">
+                        <img src="image/download.png" alt="orchid">
+                        <h3>San Htet Htar</h3>
+                    </div>
+                </div>
+                <h2>Recently Asked Questions</h2>
+                <details>
+                    <summary>Why is the periodic table called “periodic”?</summary>
+                    <p>It is called periodic because the properties of elements repeat at regular intervals, or periods, when arranged by increasing atomic number.</p>
+                </details>
+                <details>
+                    <summary>Who created the periodic table?</summary>
+                    <p>The periodic table was first developed by Dmitri Mendeleev in 1869.
+                        He arranged elements according to their atomic mass and left spaces for elements that had not yet been discovered.</p>
+                </details>
+                <details>
+                    <summary>How are elements arranged in the periodic table?</summary>
+                    <p>Elements are arranged in order of increasing atomic number (number of protons).
+                        They are organized in rows called periods and columns called groups based on similar chemical properties.</p>
+                </details>                
+            </div>
+        </div>
+    </section>
+</body>
+</html>

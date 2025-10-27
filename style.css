@@ -1,0 +1,222 @@
+.periodic-section {
+    background-color: #f9fafb;
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #174871, #A77693, #DED1C6);
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1f2937;
+    transition: 0.25s;
+    font-size: 12px;
+    user-select: none;
+    padding: 6px;
+}
+
+.legend-item .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 6px;
+    transition: 0.25s;
+}
+
+.legend-item.alkali .dot {
+    background-color: #f9c1c1;
+}
+
+.legend-item.alkaline .dot {
+    background-color: #fde1b8;
+}
+
+.legend-item.transition .dot {
+    background-color: #fff7ac;
+}
+
+.legend-item.post .dot {
+    background-color: #a8f3d0;
+}
+
+.legend-item.metalloid .dot {
+    background-color: #8fe5ac;
+}
+
+.legend-item.nonmetal .dot {
+    background-color: #bdd9ff;
+}
+
+.legend-item.halogen .dot {
+    background-color: #b2b7fc;
+}
+
+.legend-item.noble .dot {
+    background-color: #e7d5ff;
+}
+
+.legend-item.lanth .dot {
+    background-color: #d8b7fd;
+}
+
+.legend-item.actinide .dot {
+    background-color: #ffe5e8;
+}
+
+.legend-item:hover,
+.legend-item.active {
+    color: #5b21b6;
+    transform: scale(1.08);
+}
+
+
+table {
+    display: flex;
+    align-items: center;
+    border-collapse: separate;
+    border-spacing: 4px;
+    justify-content: center;
+}
+
+td {
+    width: 60px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    font-weight: 600;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.3s ease;
+}
+
+
+.num {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.sym {
+    font-size: 18px;
+    color: #1e3a8a;
+    transition: color 0.25s ease;
+}
+
+.name {
+    font-size: 10px;
+    color: #4b5563;
+    margin-top: 3px;
+    transition: color 0.25s ease;
+}
+
+.alkali {
+    background-color: #f9c1c1ab;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.alkaline {
+    background-color: #fde1b8a9;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.transition {
+    background-color: #fff7aca1;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.post {
+    background-color: #a8f3d0a0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.metalloid {
+    background-color: #8fe5acb1;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.nonmetal {
+    background-color: #bdd8ffac;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.halogen {
+    background-color: #b2b7fca6;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.noble {
+    background-color: #e7d5ffac;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.lanth {
+    background-color: #d8b7fdab;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+.actinide {
+    background-color: #ffe5e8a3;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+}
+
+
+td.empty {
+    border: none;
+    background: transparent;
+    cursor: default;
+}
+
+td:not(.empty):hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+td:not(.empty):hover .sym {
+    color: #5b21b6;
+}
+
+td:not(.empty):hover .name {
+    color: #4338ca;
+}
+
+td.fade {
+    opacity: 0.3;
+    transition: opacity 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
